@@ -24,9 +24,42 @@
                     <span>Selecione o endereço</span>
                 </div>
             </div>
-            <div class="pesquisa black bg-gray"></div>
-            <div class="login"></div>
-            <div class="pedidos"></div>
+            <div class="pesquisa black bg-gray">
+                <form action="" class="formPerquisa">
+                    <label for="selectTipo"></label>
+                    <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
+                        <option value="0" selected>
+                            Todos os Produtos
+                        </option>
+                        <option value="1">
+                            Eletrônicos
+                        </option>
+                        <option value="2">
+                            Casa
+                        </option>
+                    </select>
+
+                    <label for="nomeProduto"></label>
+                    <input type="text" name="nomeProduto" id="nomeProduto" title="Nome do Produto"
+                        placeholder="Nome do produto">
+
+                    <!-- <label for=""></label> -->
+                    <!-- <input type="submit" value=""> -->
+                    <button type="submit" title="Fazer Pesquisa">?</button>
+                </form>
+            </div>
+            <div class="login">
+                <span>
+                    Olá, faça seu login
+                </span>
+                <span>
+                    Contas e Listas
+                </span>
+            </div>
+            <div class="pedidos">
+                <span>0</span>
+                <span>CAR</span>
+            </div>
         </header>
         <nav>
 
