@@ -6,30 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LojaWEB: onde vende tudo!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
 
-    <link rel="stylesheet" href="/css/style.css">
+
     <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body class="black">
     <main>
-        <header>
-            <div class="logo">
+        <header class="row">
+            <div class="logo col-2">
                 <img src="./img/logo.png" alt="logomarca Amazon" height="50">
             </div>
-            <div class="localizacao bg-gray">
-                <div>?</div>
+            <div class="localizacao col-2">
+                <div>
+                    <i class="fa fa-map-marker-alt"></i>
+                    <!-- <img src="./img/map-svgrepo-com.svg" alt=""> -->
+                </div>
                 <div>
                     <span>Olá</span>
                     <span>Selecione o endereço</span>
                 </div>
             </div>
-            <div class="pesquisa black bg-gray">
+            <div class="pesquisa col-4">
                 <form action="" class="formPerquisa">
                     <label for="selectTipo"></label>
                     <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
                         <option value="0" selected>
-                            Todos os Produtos
+                            Todos
                         </option>
                         <option value="1">
                             Eletrônicos
@@ -45,10 +50,12 @@
 
                     <!-- <label for=""></label> -->
                     <!-- <input type="submit" value=""> -->
-                    <button type="submit" title="Fazer Pesquisa">?</button>
+                    <button type="submit" title="Fazer Pesquisa">
+                        <i class="fas fa-search"></i>
+                    </button>
                 </form>
             </div>
-            <div class="login">
+            <div class="login col-2">
                 <span>
                     Olá, faça seu login
                 </span>
@@ -56,11 +63,11 @@
                     Contas e Listas
                 </span>
             </div>
-            <div class="pedidos">
+            <div class="pedidos col-1">
                 <span>Devoluções</span>
                 <span>e Pedidos</span>
             </div>
-            <div class="carrinho">
+            <div class="carrinho col-1">
                 <span>0</span>
                 <span>CAR</span>
             </div>

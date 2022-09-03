@@ -1,3 +1,4 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,6 @@
 }
 
 /*Grid*/
-
 .col-1 {
     width: 8.333%;
 }
@@ -66,8 +66,14 @@
 }
 
 .row::after {
-    /*equivalente ou clearfix*/
+    /*equivalente ao clearfix*/
     content: "";
     clear: both;
     display: table;
+}
+
+@media (max-width: 460px) {
+    [class*="col-"] {
+        width: 100%;
+    }
 }
