@@ -65,14 +65,21 @@
     /* border: 1px solid red; */
 }
 
+
+/*equivalente ao clearfix*/
 .row::after {
-    /*equivalente ao clearfix*/
     content: "";
     clear: both;
     display: table;
 }
 
 @media (max-width: 460px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
     [class*="col-"] {
         width: 100%;
     }
