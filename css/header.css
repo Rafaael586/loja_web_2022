@@ -10,12 +10,16 @@ header {
 }
 
 .icon {
-    color: #fff;
+    color: var(--white);
 }
 
 .formPerquisa {
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 10px;
+}
+
+.formPerquisa {
+    border: solid 3px;
 }
 
 .formPerquisa select,
@@ -23,6 +27,7 @@ header {
 .formPerquisa button {
     height: 40px;
     border: none;
+    outline: none;
 }
 
 .formPerquisa select {
