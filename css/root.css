@@ -1,0 +1,9 @@
+:root {
+    --black: #222;
+    --white: #eee;
+    --gray: rgb(222, 213, 213);
+    --gold: #febd69;
+    --fs-12: 12px;
+    --font-roboto: 'Roboto Condensed', sans-serif;
+    --font-arial: Arial, Helvetica, sans-serif;
+}
