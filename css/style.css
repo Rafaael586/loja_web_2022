@@ -5,3 +5,32 @@ body {
     font-family: var(--font-arial);
     font-size: var(--fs-12);
 }
+
+.menu a {
+    /* background-color: var(--blue); */
+    color: var(--white);
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* nav .promocional {
+    text-align: right;
+}
+
+nav .promocional img {
+    width: 100%;
+    min-width: 300px;
+} */
+
+.carousel {
+    height: 200px;
+}
+
+.produto {
+    padding: 0 5px;
+}
+
+.produto-item {}

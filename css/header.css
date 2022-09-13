@@ -1,12 +1,11 @@
 header {
-    background-color: #232f3e;
+    background-color: var(--blue-dark);
     color: #fff;
 }
 
 .logo img {
     height: auto;
     width: 100%;
-
 }
 
 .icon {

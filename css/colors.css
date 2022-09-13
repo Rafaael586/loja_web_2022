@@ -29,3 +29,19 @@
 .bg-gold {
     background-color: var(--gold);
 }
+
+.blue {
+    color: var(--blue);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.blue-dark {
+    color: var(--blue-dark);
+}
+
+.bg-blue-dark {
+    background-color: var(--blue-dark);
+}
