@@ -26,11 +26,38 @@ nav .promocional img {
 } */
 
 .carousel {
-    height: 200px;
+    height: 100%;
+    min-height: 200px;
 }
 
 .produto {
     padding: 0 5px;
+    /* height: 100%;
+    min-height: 300px; */
+    height: 350px;
 }
+
+.produto a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.produto-comum {}
+
+.produto-comum div {
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.produto .valor span {
+    text-decoration: line-through;
+}
+
+.produto-comum {}
+
+.produto-amazon {}
+
+.produto-noticia {}
 
 .produto-item {}
