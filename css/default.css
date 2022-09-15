@@ -62,7 +62,7 @@
 [class*="col-"] {
     float: left;
     padding: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -90,6 +90,31 @@
 
 .w-100 {
     width: 100%;
+}
+
+
+.p-1 {
+    padding: 5%;
+}
+
+.px-1 {
+    padding: 0 5%;
+}
+
+.py-1 {
+    padding: 5% 0;
+}
+
+.m-1 {
+    margin: 5%;
+}
+
+.mx-1 {
+    margin: 0 5%;
+}
+
+.my-1 {
+    margin: 5% 0;
 }
 
 .container {

@@ -30,11 +30,9 @@ nav .promocional img {
     min-height: 200px;
 }
 
+/* Produtos */
 .produto {
     padding: 0 5px;
-    /* height: 100%;
-    min-height: 300px; */
-    height: 350px;
 }
 
 .produto a {
@@ -42,22 +40,45 @@ nav .promocional img {
     color: var(--black);
 }
 
-.produto-comum {}
-
-.produto-comum div {
-    height: 50%;
-    overflow: hidden;
-    text-align: center;
-}
-
 .produto .valor span {
     text-decoration: line-through;
 }
 
-.produto-comum {}
+.produto .descricao {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
 
-.produto-amazon {}
+.produto-comum,
+.produto-amazon,
+.produto-noticia,
+.produto-item {
+    padding: 15px;
+    background-color: var(--white);
+    /* height: 100%;
+    min-height: 300px; */
+    height: 330px;
+}
+
+.produto-comum div {
+    height: 65%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.produto-amazon div {
+    width: 30%;
+    float: left;
+}
 
 .produto-noticia {}
 
-.produto-item {}
+.produto-item div {
+    background-color: aqua;
+    height: 100%;
+    min-height: 100px;
+    max-height: 130px;
+    margin-bottom: 15px;
+}
